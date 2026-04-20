@@ -24,7 +24,7 @@ The bridge geometry was modelled in **Creo Parametric 2.0** and exported as an I
 
 A fine mesh was applied across the full bridge geometry to ensure solution accuracy. Element edge length was refined from **97.5 mm to 21.6 mm** in critical regions.
 
-![Mesh Visualization](MESH.PNG)
+![Mesh Visualization](images/MESH.PNG)
 
 ---
 
@@ -42,7 +42,7 @@ A fine mesh was applied across the full bridge geometry to ensure solution accur
 **Key Results:**
 - Maximum velocity in flow field: **42.49 m/s**, concentrated under the span and around arch sides, consistent with expected flow acceleration around bluff bodies.
 
-![Fluid Flow Velocity Streamlines](FLUID%20FLOW%20(FLUENT)%20ANALYSIS.png)
+![Fluid Flow Velocity Streamlines](images/FLUID%20FLOW%20(FLUENT)%20ANALYSIS.png)
 
 ---
 
@@ -68,15 +68,15 @@ The maximum stress is far below the steel yield limit of 250 MPa, confirming str
 
 **Total Deformation**
 
-![Total Deformation](Total%20Deformation.png)
+![Total Deformation](images/Total%20Deformation.png)
 
 **Von Mises Stress**
 
-![Von Mises Stress](STATIC%20STRUCTURAL%20ANALYSIS%20Von-Mises%20Stress.png)
+![Von Mises Stress](images/STATIC%20STRUCTURAL%20ANALYSIS%20Von-Mises%20Stress.png)
 
 **Von Mises Strain**
 
-![Von Mises Strain](STATIC%20STRUCTURAL%20ANALYSIS%20Von-Mises%20Strain.png)
+![Von Mises Strain](images/STATIC%20STRUCTURAL%20ANALYSIS%20Von-Mises%20Strain.png)
 
 ---
 
@@ -92,12 +92,12 @@ The maximum stress is far below the steel yield limit of 250 MPa, confirming str
 
 | Mode | Visualization |
 |---|---|
-| Mode 1 | ![Mode 1](1st.PNG) |
-| Mode 2 | ![Mode 2](2nd.PNG) |
-| Mode 3 | ![Mode 3](3rd.PNG) |
-| Mode 4 | ![Mode 4](4th.PNG) |
-| Mode 5 | ![Mode 5](5th.PNG) |
-| Mode 6 | ![Mode 6](6th.PNG) |
+| Mode 1 | ![Mode 1](images/1st.PNG) |
+| Mode 2 | ![Mode 2](images/2nd.PNG) |
+| Mode 3 | ![Mode 3](images/3rd.PNG) |
+| Mode 4 | ![Mode 4](images/4th.PNG) |
+| Mode 5 | ![Mode 5](images/5th.PNG) |
+| Mode 6 | ![Mode 6](images/6th.PNG) |
 
 Each mode shape reveals distinct deformation patterns across the arch and truss members, providing insight into the structure's dynamic vulnerability zones.
 
@@ -107,18 +107,19 @@ Each mode shape reveals distinct deformation patterns across the arch and truss 
 
 ```
 sydney-harbour-bridge-fem-analysis/
-├── README.md                                        # This file
-├── MESH.PNG                                         # Mesh visualization
-├── FLUID FLOW (FLUENT) ANALYSIS.png                 # CFD velocity streamlines
-├── Total Deformation.png                            # Static structural: total deformation
-├── STATIC STRUCTURAL ANALYSIS Von-Mises Stress.png  # Static structural: von Mises stress
-├── STATIC STRUCTURAL ANALYSIS Von-Mises Strain.png  # Static structural: von Mises strain
-├── 1st.PNG                                          # Modal mode shape 1
-├── 2nd.PNG                                          # Modal mode shape 2
-├── 3rd.PNG                                          # Modal mode shape 3
-├── 4th.PNG                                          # Modal mode shape 4
-├── 5th.PNG                                          # Modal mode shape 5
-└── 6th.PNG                                          # Modal mode shape 6
+├── README.md
+└── images/
+    ├── MESH.PNG                                         # Mesh visualization
+    ├── FLUID FLOW (FLUENT) ANALYSIS.png                 # CFD velocity streamlines
+    ├── Total Deformation.png                            # Static structural: total deformation
+    ├── STATIC STRUCTURAL ANALYSIS Von-Mises Stress.png  # Static structural: von Mises stress
+    ├── STATIC STRUCTURAL ANALYSIS Von-Mises Strain.png  # Static structural: von Mises strain
+    ├── 1st.PNG                                          # Modal mode shape 1
+    ├── 2nd.PNG                                          # Modal mode shape 2
+    ├── 3rd.PNG                                          # Modal mode shape 3
+    ├── 4th.PNG                                          # Modal mode shape 4
+    ├── 5th.PNG                                          # Modal mode shape 5
+    └── 6th.PNG                                          # Modal mode shape 6
 ```
 
 ---
